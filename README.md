@@ -4,6 +4,8 @@
 - The main goal is create a News Feed web app with a home page and post detail page.
 - API used https://newsapi.org/docs/
 
+We use only css to stylish the app. For a real project is recommended to use an UI library of your choice. 
+
 ## Home page
 
 ### What we are going to learn
