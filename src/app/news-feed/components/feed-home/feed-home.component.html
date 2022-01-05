@@ -1,0 +1,9 @@
+<div class="container bg-gray">
+    <h4>Top Headlines</h4>
+    <div class="post-grid">
+        <app-post-card *ngFor="let item of posts"
+        [title]="item.title"
+        [imgUrl]="item.urlToImage"
+        ></app-post-card>
+    </div>
+</div>

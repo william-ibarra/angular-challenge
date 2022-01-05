@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: unset;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  padding: 1.5rem 4rem;
+}
+
+.bg-gray {
+  background-color: #F9F9F7;
+}
