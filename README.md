@@ -1,27 +1,40 @@
-# AngularChallenge
+# Angular Beginner Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+- The main goal is create a News Feed web app with a home page and post detail page.
+- API used https://newsapi.org/docs/
 
-## Development server
+## Home page
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### What we are going to learn
 
-## Code scaffolding
+In this section we are going to learn:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- How to create a lazy loaded module
+- How to create a custom component for post listing.
+- How to setup your routes file.
+- How to retrieve data from an API using services.
+- How to display all posts into the template.
 
-## Build
+## Post detail page
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### What we are going to learn
 
-## Running unit tests
+In this section we are going to learn:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- How to create a detail page component inside the previously created module.
+- How to create a new detail route.
+- Create a new function to get the post detail from the API.
+- How to display the post detail data in the template.
 
-## Running end-to-end tests
+## Improve user experience and Comment Form
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### What we are going to learn
 
-## Further help
+In this section we are going to learn:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- How to create a search box taking advantage of RxJS operators.
+- How to create a load more button to get more results from the API.
+- Create a category buttons bar to get data from an specific category.
+- Create a comment form inside the post detail using reactive forms.
+
