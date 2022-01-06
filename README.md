@@ -13,3 +13,4 @@ In this section:
 - Create the data model for article list
 - Retrieve list of posts from the API
 - Display all articles on the home page
+- Format article date using date pipe
