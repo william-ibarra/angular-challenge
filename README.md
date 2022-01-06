@@ -28,9 +28,9 @@ In this section:
 
 - Create a load more button to get more results from the API.
 - Create a category buttons bar to get data from a specific category.
-- Capitalize category name using titlecase pipe.
-- Emit an event when category is clicked passing category title.
-- Apply css style to selected category using ngClass.
+- Capitalize category title using titlecase pipe.
+- Emit an event to send category title to parent component when category is clicked.
+- Apply CSS style to the selected category using ngClass.
 
 
 ## Login Form
@@ -41,7 +41,7 @@ In this section:
 - Create login route
 - Create login component
 - Create login form using Reactive Form
-- Create a auth service to handle authentication
+- Create an auth service to handle authentication
 - Redirect to home page upon form submit
 
 
@@ -49,9 +49,12 @@ In this section:
 
 ### Tasks
 
-- Create a http interceptor to handle apikey
-- Create a error interceptor to handle error request response
-- Create a custom pipe to enumarate article list, starting in 1
+- Create an authentication guard to handle unauthorized users.
+- Redirect unauthorized users to the login page
+- Create an HTTP interceptor to handle apikey
+- Create an error interceptor to handle error response
+- Create a custom pipe to enumerate article list, starting in 1
 - Create a custom directive to highlight article card on mouse over
 - Create a search box taking advantage of RxJS operators
+
 
