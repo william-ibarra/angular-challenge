@@ -1,15 +1,13 @@
 # Angular Beginner Challenge
 
-## Home page
+## Improve user experience
 
 ### Tasks
 
 In this section:
 
-- Create a lazy module for news feed
-- Create a layout component
-- Create article card and header components.
-- Create the route from home page 
-- Create the data model for article list
-- Retrieve list of posts from the API
-- Display all articles on the home page
+- Create a load more button to get more results from the API.
+- Create a category buttons bar to get data from a specific category.
+- Capitalize category name using titlecase pipe.
+- Emit an event when category is clicked passing category title.
+- Apply css style to selected category using ngClass.
