@@ -52,4 +52,5 @@ In this section:
 - Create a error interceptor to handle error request response
 - Create a custom pipe to enumarate article list, starting in 1
 - Create a custom directive to highlight article card on mouse over
+- Create a search box taking advantage of RxJS operators
 
