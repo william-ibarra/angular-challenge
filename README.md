@@ -37,8 +37,8 @@ In this section:
 
 In this section:
 
-- How to create a search box taking advantage of RxJS operators.
-- How to create a load more button to get more results from the API.
+- Create a search box taking advantage of RxJS operators.
+- Create a load more button to get more results from the API.
 - Create a category buttons bar to get data from an specific category.
 - Create a comment form inside the post detail using reactive forms.
 
