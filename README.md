@@ -1,7 +1,7 @@
 # Angular Beginner Challenge
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
-- The main goal is create a News Feed web app with a home page and post detail page.
+- The main goal is to create a News Feed web app with an article listing page, category listing, loading more articles functionality, and login form.
 - API used https://newsapi.org/docs/ 
 
 ## Home page
@@ -26,10 +26,11 @@ In this section:
 
 In this section:
 
-- Create a search box taking advantage of RxJS operators.
 - Create a load more button to get more results from the API.
-- Create a category buttons bar to get data from an specific category.
-- Handling API errors and displaying empty state component.
+- Create a category buttons bar to get data from a specific category.
+- Capitalize category name using titlecase pipe.
+- Emit an event when category is clicked passing category title.
+- Apply css style to selected category using ngClass.
 
 
 ## Login Form
@@ -44,7 +45,7 @@ In this section:
 - Redirect to home page upon form submit
 
 
-## Using advance features of Angular
+## Using advance features of Angular (Coming soon)
 
 ### Tasks
 
