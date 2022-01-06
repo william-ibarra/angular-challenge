@@ -19,7 +19,7 @@ In this section:
 - Display all articles on the home page
 
 
-## Post detail page
+## Article detail page
 
 ### Tasks
 
