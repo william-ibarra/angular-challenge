@@ -45,7 +45,7 @@ In this section:
 - Redirect to home page upon form submit
 
 
-## Using advance features of Angular (Coming soon)
+## Using advance features of Angular (Extra)
 
 ### Tasks
 
