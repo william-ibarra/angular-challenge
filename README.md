@@ -2,38 +2,40 @@
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 - The main goal is create a News Feed web app with a home page and post detail page.
-- API used https://newsapi.org/docs/
-
-We use only css to stylish the app. For a real project is recommended to use an UI library of your choice. 
+- API used https://newsapi.org/docs/ 
 
 ## Home page
 
-### What we are going to learn
+### Tasks
 
-In this section we are going to learn:
+In this section:
 
-- How to create a lazy loaded module
-- How to create a custom component for post listing.
-- How to setup your routes file.
-- How to retrieve data from an API using services.
-- How to display all posts into the template.
+- Create a lazy module for news feed
+- Create a layout component
+- Create article card and header components.
+- Create the route from home page 
+- Create the data model for article list
+- Retrieve list of posts from the API
+- Display all articles on the home page
+
 
 ## Post detail page
 
-### What we are going to learn
+### Tasks
 
-In this section we are going to learn:
+In this section:
 
-- How to create a detail page component inside the previously created module.
-- How to create a new detail route.
-- Create a new function to get the post detail from the API.
-- How to display the post detail data in the template.
+- Create detail component inside the previously created module
+- Create the route from detail page
+- Create data model for article
+- Retrieve selected post from the API
+- Display article information
 
-## Improve user experience and Comment Form
+## Improve user experience and use Reactive Forms
 
-### What we are going to learn
+### Tasks
 
-In this section we are going to learn:
+In this section:
 
 - How to create a search box taking advantage of RxJS operators.
 - How to create a load more button to get more results from the API.
