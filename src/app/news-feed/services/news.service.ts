@@ -8,14 +8,38 @@ import { Posts } from '../models/posts';
   providedIn: 'root',
 })
 export class NewsService {
+  page = 0;
+  selectedCategory: string = '';
+
   constructor(private http: HttpClient) {}
 
-  getAllPosts(): Observable<Posts> {
+  getAllPosts(filter?: any): Observable<Posts> {
+    if (!!filter.category && filter.category !== this.selectedCategory) {
+      this.page = 1;
+    } else {
+      this.page++;
+    }
+
     const headers = new HttpHeaders({
       'X-Api-key': environment.newsApi.apiKey,
     });
-    const params = new HttpParams().append('country', 'us');
 
-    return this.http.get<Posts>(environment.newsApi.headlines, { headers, params });
+    let params = new HttpParams({ fromObject: filter });
+
+    if (!filter.category) {
+      params = params.delete('category');
+    } else {
+      this.selectedCategory = filter.category;
+    }
+
+    params = params
+      .append('country', 'us')
+      .append('page', this.page)
+      .append('pageSize', '10');
+
+    return this.http.get<Posts>(environment.newsApi.headlines, {
+      headers,
+      params,
+    });
   }
 }

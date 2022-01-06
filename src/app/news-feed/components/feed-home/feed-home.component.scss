@@ -12,3 +12,28 @@ h4 {
   line-height: 28px;
   color: #dc4544;
 }
+
+.h-80 {
+  min-height: 80vh;
+}
+
+.more {
+  padding: 8px 14px;
+  background: #fff;
+  border-radius: 20px;
+  color: #000;
+  font-size: 13px;
+  border-width: 0 !important;
+}
+
+.more:hover {
+  background: #dc4544;
+  cursor: pointer;
+  color: #fff;
+}
+
+.load-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

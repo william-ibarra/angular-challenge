@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+  padding: 0 0 2rem 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+button {
+  padding: 8px 14px;
+  background: #fff;
+  border-radius: 20px;
+  color: #000;
+  font-size: 13px;
+  border-width: 0 !important;
+}
+
+button:hover {
+  background: #dc4544;
+  cursor: pointer;
+  color: #fff;
+}
+
+.selected {
+  background: #dc4544;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,9 +1,20 @@
-<div class="container bg-gray">
+<div class="container bg-gray h-80">
+  <div>
     <h4>Top Headlines</h4>
-    <div class="post-grid">
-        <app-post-card *ngFor="let item of posts"
-        [title]="item.title"
-        [imgUrl]="item.urlToImage"
-        ></app-post-card>
-    </div>
+    <app-category-bar [categories]="categories" (selectedCategory)="loadByCategory($event)"></app-category-bar>
+  </div>
+
+  <div class="post-grid">
+    <app-post-card
+      *ngFor="let item of posts"
+      [title]="item.title"
+      [imgUrl]="item.urlToImage"
+      [url]="item.url"
+    ></app-post-card>
+  </div>
+</div>
+<div class="container bg-gray load-container">
+  <button class="more" type="button" (click)="loadMore($event)">
+    Load more articles
+  </button>
 </div>

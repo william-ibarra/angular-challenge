@@ -5,6 +5,7 @@ import { FeedHomeComponent } from './components/feed-home/feed-home.component';
 import { FeedLayoutComponent } from './components/feed-layout/feed-layout.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { NewsFeedRoutingModule } from './news-feed-routing.module';
+import { CategoryBarComponent } from './components/category-bar/category-bar.component';
 
 
 
@@ -13,7 +14,8 @@ import { NewsFeedRoutingModule } from './news-feed-routing.module';
     PostCardComponent,
     FeedLayoutComponent,
     FeedHeaderComponent,
-    FeedHomeComponent
+    FeedHomeComponent,
+    CategoryBarComponent
   ],
   imports: [
     CommonModule,

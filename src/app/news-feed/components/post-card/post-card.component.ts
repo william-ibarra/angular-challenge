@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PostCardComponent implements OnInit {
 
-  @Input() idx!: number;
+  @Input() url: string = '';
   @Input() title: string = '';
   @Input() imgUrl: string = '';
 
