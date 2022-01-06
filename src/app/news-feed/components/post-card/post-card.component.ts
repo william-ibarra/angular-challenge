@@ -10,6 +10,7 @@ export class PostCardComponent implements OnInit {
   @Input() url: string = '';
   @Input() title: string = '';
   @Input() imgUrl: string = '';
+  @Input() published: string = '';
 
   constructor() { }
 

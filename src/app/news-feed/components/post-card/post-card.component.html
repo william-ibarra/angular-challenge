@@ -1,5 +1,6 @@
 <div class="card">
   <img [src]="imgUrl" [alt]="title" />
+  <span>{{ published | date: 'medium'}}</span>
   <p>{{ title }}</p>
   <a [href]="url" target="_blank" rel="noopener noreferrer"> Read Article</a>
 </div>
