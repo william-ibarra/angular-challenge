@@ -4,6 +4,8 @@
         <app-post-card *ngFor="let item of posts"
         [title]="item.title"
         [imgUrl]="item.urlToImage"
+        [url]="item.url"
+        [published]="item.publishedAt"
         ></app-post-card>
     </div>
 </div>
