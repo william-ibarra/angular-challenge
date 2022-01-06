@@ -2,12 +2,14 @@
 
 ## Home page
 
-### What we are going to learn
+### Tasks
 
-In this section we are going to learn:
+In this section:
 
-- How to create a lazy loaded module
-- How to create a custom component for post listing.
-- How to setup your routes file.
-- How to retrieve data from an API using services.
-- How to display all posts into the template.
+- Create a lazy module for news feed
+- Create a layout component
+- Create article card and header components.
+- Create the route from home page 
+- Create the data model for article list
+- Retrieve list of posts from the API
+- Display all articles on the home page
