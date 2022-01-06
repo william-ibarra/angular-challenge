@@ -41,7 +41,7 @@ In this section:
 - Create login route
 - Create login component
 - Create login form using Reactive Form
-- Create an auth service to handle authentication
+- Handle field error validation
 - Redirect to home page upon form submit
 
 
