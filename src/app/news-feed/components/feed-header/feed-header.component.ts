@@ -1,16 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-feed-header',
   templateUrl: './feed-header.component.html',
   styleUrls: ['./feed-header.component.scss']
 })
-export class FeedHeaderComponent implements OnInit {
+export class FeedHeaderComponent {
 
   @Input() headerTitle: string = '';
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
