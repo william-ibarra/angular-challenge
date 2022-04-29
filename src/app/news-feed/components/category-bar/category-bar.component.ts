@@ -1,22 +1,17 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-category-bar',
   templateUrl: './category-bar.component.html',
   styleUrls: ['./category-bar.component.scss']
 })
-export class CategoryBarComponent implements OnInit {
+export class CategoryBarComponent {
 
   selected: string = '';
 
   @Input() categories: string[] = [];
 
   @Output() selectedCategory =  new EventEmitter<string>();
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   handle(title: string) {
     this.selectedCategory.emit(title);
