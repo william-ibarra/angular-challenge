@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: #dc4544;
+  font-weight: 500;
+  font-size: 34px;
+  margin: 0;
+}
+
+.navbar a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+}

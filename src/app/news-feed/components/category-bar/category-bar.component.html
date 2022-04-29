@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let item of categories">
+    <button type="button" (click)="handle(item)" [ngClass]="{ selected : item === selected }">{{ item | titlecase }}</button>
+  </li>
+</ul>

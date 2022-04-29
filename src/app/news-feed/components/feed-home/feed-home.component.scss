@@ -1,0 +1,39 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #dc4544;
+}
+
+.h-80 {
+  min-height: 80vh;
+}
+
+.more {
+  padding: 8px 14px;
+  background: #fff;
+  border-radius: 20px;
+  color: #000;
+  font-size: 13px;
+  border-width: 0 !important;
+}
+
+.more:hover {
+  background: #dc4544;
+  cursor: pointer;
+  color: #fff;
+}
+
+.load-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

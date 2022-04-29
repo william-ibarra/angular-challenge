@@ -57,4 +57,3 @@ In this section:
 - Create a custom directive to highlight article card on mouse over
 - Create a search box taking advantage of RxJS operators
 
-
